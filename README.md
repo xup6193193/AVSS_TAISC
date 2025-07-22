@@ -15,8 +15,8 @@ This experiment consists of three core steps. To save you time, we provide pre-c
     To use a Vision Language Model (VLM) to generate corresponding text descriptions (captions) for every image in the dataset (both training and test sets).
 
 * **Execution Scripts:**
-    * `Step 1.1 - VLM_產生文字檔-train.ipynb` (for the training set)
-    * `Step 1.2 - VLM_產生文字檔-test.ipynb` (for the test set)
+    * `Step 1.1 - VLM_gt-train.ipynb` (for the training set)
+    * `Step 1.2 - VLM_gt-test.ipynb` (for the test set)
 
 * **Output Files:**
     * `road_train_with_captions.csv`
@@ -37,7 +37,7 @@ This experiment consists of three core steps. To save you time, we provide pre-c
     2.  **Stage 2:** Unfreeze the entire network and perform fine-tuning based on the results of Stage 1.
 
 * **Execution Script:**
-    * `Step 2 - VLM_5X3_2階段.ipynb`
+    * `Step 2 - VLM_5X3_2.ipynb`
 
 * **【⚡️ Fast Track / Important Note】**
     Model training also requires significant time and computational resources. For your convenience and quick verification, we have provided all the trained model weights. **We recommend downloading the weights directly and skipping to Step Three.**
@@ -53,13 +53,13 @@ This experiment consists of three core steps. To save you time, we provide pre-c
     To load the pre-trained model weights and run predictions on the test set to quickly reproduce our experimental results.
 
 * **Execution Script:**
-    * `Step 3 - VLM_(重現權重檔).ipynb`
+    * `Step 3 - VLM_(rw).ipynb`
 
 * **Procedure:**
     1.  **Download Weights:** Download the model weights folder from the link provided in **Step Two**.
     2.  **Place Weights:** Move the entire downloaded folder, `output_pytorch_MultiWindow_20250710_131200`, directly into the `./AVA_Dataset` root directory.
     3.  **Prepare Caption Files:** Ensure the test set caption files from **Step One** (either generated or provided), `road_test_with_captions.csv` and `freeway_test_with_captions.csv`, are in place.
-    4.  **Run Script:** In the `./AVA_Dataset` directory, execute this Jupyter Notebook (`Step 3 - VLM_(重現權重檔).ipynb`) to get the final prediction results.
+    4.  **Run Script:** In the `./AVA_Dataset` directory, execute this Jupyter Notebook (`Step 3 - VLM_(rw).ipynb`) to get the final prediction results.
 
 #### **Notes**
 
