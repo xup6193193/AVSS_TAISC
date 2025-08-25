@@ -1,4 +1,14 @@
 # AVSS_TAISC
+### Taiwan AI Safety Challenge – Certificates
+
+<p align="center">
+  <img src="Screenshot from 2025-08-25 16-20-33.png" alt="Second Place Certificate" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Screenshot from 2025-08-25 16-20-29.png" alt="Speaker Certificate" width="600"/>
+</p>
+
 ### **Experiment Reproduction Guide**
 
 This guide provides clear and efficient instructions for reproducing our experimental results. All operations should be executed from the root directory of the dataset: `./AVA_Dataset`.
